@@ -1,0 +1,30 @@
+.centerContent{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.form-control{
+    width: 300px;
+}
+
+#logo{
+    height: 100px;
+    width: 100px;
+}
+
+#submit{
+    position: relative;
+    height: 50%;
+    width: 50%;
+}
+
+#errorAlert{
+    position: relative;
+    left: 400px;
+    top: 450px;
+    width: 450px;
+    height: 50px;
+}

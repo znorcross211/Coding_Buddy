@@ -1,0 +1,28 @@
+#learn{
+    margin-left: 200px;
+}
+
+#javaPhoto, #cPhoto{
+    height:40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#dropDownPrac{
+    margin-left: 100px;
+}
+
+#dropDownLang{
+    height: 34px;
+    margin-left: 125px;
+    width: 170px;  
+    display: inline-block;
+}
+
+#dropdown-menuLang{
+    margin-left: 125px;
+}
+
+textarea{
+    display: inline-block;
+}

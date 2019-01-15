@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="homePage.css">
+    <script src="homePage.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Welcome **USER'S USERNAME**</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>What language would you like to work in?</h2>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropDownLang" data-toggle="dropdown">
+                <label id="dropDownLangText">Choose a Language</label>
+            </button>
+            <div class="dropdown-menu" id="dropdown-menuLang">
+                <p class="dropdown-item" id="java">Java <img id="javaPhoto" src="../javaIcon.png"> </p>
+                <p class="dropdown-item" id="c">C <img id="cPhoto" src="../cIcon.png"> </p>
+            </div>
+        </div>
+        <br>
+        <ul class="list-inline" id="listOfOptions">
+            <li id="practice" class="list-inline-item"> <button class="btn-primary btn-lg">Practice</button> </li>
+            <li id="learn" class="list-inline-item "> <button class="btn-primary btn-lg">Learn</button> </li>
+        </ul>
+    </div>
+    <div class="container" id= "dropDownDivCont">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropDownPrac" data-toggle="dropdown">
+                <label id="dropDownPracText">Choose a way to practice</label>
+            </button>
+            <div class="dropdown-menu">
+                <p class="dropdown-item" id="flashcards">Flashcards</p>
+                <p class="dropdown-item" id="quiz">Quizzes</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+<html>

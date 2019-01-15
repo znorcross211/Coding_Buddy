@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/homePage.css">
+    <script src="/js/homePage.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Welcome <small>
+                    <%= userName %><small></h1>
+        </div>
+    </div>
+   
+        <div class="container" id="dropDownDivCont">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropDownPrac" data-toggle="dropdown"
+                    style="display: none">
+                    <label id="dropDownPracText">Choose a way to practice</label>
+                </button>
+                <div class="dropdown-menu">
+                    <p class="dropdown-item" id="flashcards">Flashcards</p>
+                    <p class="dropdown-item" id="quiz">Quizzes</p>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</body>
+<html>
+
+
+
+
+<!--  <form id="userAction" method="POST" action="/practice/init">
+        <div class="container">
+            <h2>What language would you like to work in?</h2>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropDownLang" data-toggle="dropdown">
+                    <label id="dropDownLangText">Choose a Language</label>
+                </button>
+                <div class="dropdown-menu" id="dropdown-menuLang">
+                    <input class="dropdown-item" name="java" id="java" value="Java"></input>  <img id="javaPhoto" src="../javaIcon.png" style="display: inline"> -->
+                 <!--   <input class="dropdown-item" id="c" name="c" value="C"></input> <img id="cPhoto" src="../cIcon.png">
+                </div>
+            </div>
+            <br>
+            <ul class="list-inline" id="listOfOptions" style="display: none">
+                <li id="practice" class="list-inline-item"> <button class="btn-primary btn-lg">Practice</button> </li>
+                <li id="learn" class="list-inline-item "> <button class="btn-primary btn-lg" id="submit" type="submit">Learn</button> </li>
+            </ul>
+        </div> -->
